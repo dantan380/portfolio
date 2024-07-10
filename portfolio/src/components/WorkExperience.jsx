@@ -21,7 +21,11 @@ const WorkExperience = () => {
               </h6>
               <p className="mb-4">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
-                <span key={index} className="bg-neutral-200 mr-2 mt-4 rounded px-2 py-1 text-sm font-medium text-blue-800">{tech}</span>
+                <span 
+                key={index} 
+                className="bg-neutral-200 mr-2 mt-4 rounded px-2 py-1 text-sm font-medium text-blue-800">
+                  {tech}
+                </span>
               ))}
             </div>
           </div>
