@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/dt-hero-image.jpg"
 const HeroSection = () => {
   return (
-    <div className="border-b border-neutral-500 pb-4 lg:mb-35">
+    <div className="pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
