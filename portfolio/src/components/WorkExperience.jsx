@@ -25,7 +25,12 @@ const WorkExperience = () => {
             className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">
                 {experience.role} -{" "} <span className="text-sm text-blue-400">
-                  {experience.company}
+                  <a 
+                  href={experience.link}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >{experience.company}
+                  </a>
                 </span>
               </h6>
               <p className="mb-4">{experience.description}</p>
