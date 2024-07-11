@@ -10,10 +10,18 @@ const Navbar = () => {
         <img src={logo} alt="logo" height="35" width="35" className="m-8"></img>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a href={LOGO.github.link}>
+      <a 
+      href={LOGO.github.link}
+      target="_blank" 
+      rel="noopener noreferrer"
+      >
         <FaGithub />
       </a>
-      <a href={LOGO.linkedin.link}>
+      <a 
+      href={LOGO.linkedin.link}
+      target="_blank" 
+      rel="noopener noreferrer"
+      >
       <FaLinkedin />
       </a>
       </div>

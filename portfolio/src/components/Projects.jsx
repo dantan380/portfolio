@@ -31,7 +31,13 @@ const Projects = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full max-w-xl lg:w-3/4">
-            <a href={project.link} className="mb-5 font-semibold text-base">{project.title}</a>
+            <a 
+            href={project.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mb-5 font-semibold text-base">
+              {project.title}
+            </a>
             <p className="mb-4">{project.description}</p>
             {project.technologies.map((tech, index) => (
               <span key={index} 
