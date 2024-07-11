@@ -1,76 +1,76 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a full-stack web developer with previous experience in customer support working at Shopify and Jane App. With knowledge of several languages and through a growing process of planning, development, and testing, I am able to build robust web applications for the given requirement. Clear communication, project ownership, and strong teamwork are used to produce high quality output.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Since transitioning from Customer Support, I have worked with a variety of technologies, including React, Typescript, Node.js, Firebase, PostgreSQL, and MongoDB. Ever since I was a child, I loved to build things. When I discovered web development and the ability to build anything virtually to solve an issue or to provide a solution, I fell in love. Now I am currently seeking opportunities to provide value, while improving my skills further. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. I enjoy climbing, photography, keeping up to date and exploring new technologies, as well as building out my own personal projects!`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jan 2024 - Mar 2024",
+    role: "Web Developer",
+    company: "Alpha Wave",
+    description: `Implemented a converting e-commerce store with custom Liquid sections using HTML and CSS to work with Shopify. Worked closely with the CEO to design and build the website, while also implementing marketing and inventory workflows with Zoho One Suite.`,
+    technologies: ["HTML", "CSS", "Liquid", "Shopify", "Zoho One", "Figma"],
+    link: "https://www.linkedin.com/company/alpha-wave-inc/"
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Sept 2022 - Aug 2023",
+    role: "Customer Service Representative",
+    company: "Jane App",
+    description: `Successfully troubleshooted a multitude of technical issues, ensuring uninterrupted use of the Jane platform for allied healthcare practitioners.Provided live software demonstrations for prospective clients and collaborated with cross-functional teams for enhanced customer satisfaction.`,
+    technologies: ["Jira", "Helpscout", "DataDog", "Call handling", "Software Demo"],
+    link: "https://jane.app/"
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Oct 2021 - Aug 2022",
+    role: "Support Advisor",
+    company: "Shopify",
+    description: `Replied at least 2 emails an hour, answered 5 - 10 phone calls in 2 hours, and at least 7 chats in 1.5 hours. Employed empathy, conversational skills, and developed meaningful relationships with merchants to provide best in class customer support.`,
+    technologies: ["Zendesk","DataDog", "Chat", "Email", "Call handling"],
+    link: "https://www.shopify.com/ca"
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Poppins",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A full-stack web application for managing check in/out of kids from classrooms or daycares.",
+    technologies: ["HTML", "TailwindCSS", "React", "Node.js", "Firebase"],
+    link: "https://github.com/dantan380/poppins"
   },
   {
-    title: "Task Management App",
+    title: "Tenant",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for tenants to leave comprehensive reviews of their living experiences, as well as view reivews left by other tenants.",
+    technologies: ["HTML", "CSS", "Vue", "MongoDB", "Node.js", "Typescript", "Express"],
+    link: "https://github.com/dantan380/tenant"
   },
   {
-    title: "Portfolio Website",
+    title: "Smart To-Do List",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a sophisticated Smart Todo List app to automatically categorize todos into four distinct categories: Watch, Eat, Read, and Buy.",
+    technologies: ["HTML", "CSS", "React", "PostgreSQL", "TailwindCSS", "Node.js"],
+    link: "https://github.com/dantan380/smart-todo"
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Vancouver, British Columbia, Canada",
+  phoneNo: "",
+  email: "danieltan380@gmail.com",
 };
+
+export const LOGO = {
+  github: {
+    link: "https://github.com/dantan380/"
+  },
+  linkedin: {
+    link: "https://www.linkedin.com/in/daniel-tan380/"
+  }
+}
